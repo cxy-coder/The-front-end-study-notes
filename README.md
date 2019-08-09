@@ -1,6 +1,6 @@
 # The-front-end-study-notes
 
-#添加全局时间监听页面的可见状态的变化
+添加全局时间监听页面的可见状态的变化
 
 const handleVisibilityChange = () => {
       if (document.hidden) {
@@ -10,3 +10,8 @@ const handleVisibilityChange = () => {
       }
     }
 document.addEventListener('visibilitychange', handleVisibilityChange, false);
+
+子仓库
+git submodule update --init --recursive    //下载
+git link 子仓库名
+
